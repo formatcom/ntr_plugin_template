@@ -6,7 +6,7 @@ CC = "arm-none-eabi-gcc"
 OC = "arm-none-eabi-objcopy"
 LD = "arm-none-eabi-ld"
 DEVKITARM = os.environ['DEVKITARM']
-ARM_NONE_EABI_VERSION = '7.1.0'
+ARM_NONE_EABI_VERSION = os.environ.get('ARM_NONE_EABI_VERSION', '7.1.0')
 
 LIBPATH = '-L {0}/lib/gcc/arm-none-eabi/{1}/'.format(
     DEVKITARM, ARM_NONE_EABI_VERSION
