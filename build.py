@@ -30,8 +30,6 @@ def run(cmd):
 
 INCLUDE_C = ' '.join((
     allFile('source/*.c'),
-    allFile('source/battle/*.c'),
-    allFile('source/rng/*.c'),
 ))
 
 INCLUDE_S = ' '.join((
