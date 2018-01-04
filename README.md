@@ -2,6 +2,9 @@
 
 This is a template for starting plugin ntr projects.
 
+### PROJECT NAME
+Is the name of the project folder
+
 ### BUILD PLUGIN
 ```
 export DEVKITPRO=$HOME/devkitPro
